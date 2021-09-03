@@ -1,7 +1,7 @@
 {
     "apps": [
       {
-        "name": "Hanyuu",
+        "name": "Sei",
         "script": "./index.js",
         "node_args": ["--insecure-http-parser","--max-old-space-size=2000"],
         "error_file": "./err.log",
