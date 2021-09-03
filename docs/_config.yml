@@ -1,0 +1,30 @@
+lang: en-US
+title: "Discordjs Template"
+url: "https://ayeven.github.io/discordjs-template/"
+repository: "ayeven/discordjs-template"
+author: 
+  name: "Ayeven#9725"
+  picture:
+github_username: "Ayeven"
+logo: /assets/icons/10000000000022934.bmp
+
+plugins: # previsously gems
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+markdown: kramdown
+remote_theme: "Ayeven/jekyll-theme-basically-basic@1.4.5"
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true

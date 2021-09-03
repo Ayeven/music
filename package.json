@@ -1,0 +1,36 @@
+{
+  "name": "music",
+  "version": "1.0.0-alpha",
+  "description": "discord music bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "discordjs",
+    "music",
+    "discord",
+    "bot",
+    "youtube"
+  ],
+  "author": "ayeven#9725",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.6.0",
+    "dayjs": "^1.10.6",
+    "discord.js": "^13.1.0",
+    "fast-glob": "^3.2.7",
+    "libsodium-wrappers": "^0.7.9",
+    "owofy": "^1.0.2",
+    "scdl-core": "^1.0.15",
+    "utf-8-validate": "^5.0.5",
+    "youtube-dl-exec": "^1.2.5",
+    "youtube-sr": "^4.1.7",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

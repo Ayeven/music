@@ -1,0 +1,11 @@
+{
+    "apps": [
+      {
+        "name": "Hanyuu",
+        "script": "./index.js",
+        "node_args": ["--insecure-http-parser","--max-old-space-size=2000"],
+        "error_file": "./err.log",
+        "out_file" : "./out.log"
+      }
+    ]
+  }
