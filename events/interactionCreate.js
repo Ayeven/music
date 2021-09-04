@@ -69,6 +69,11 @@ module.exports = {
 			try {
 				const commandName = interaction.commandName;
 				const contextMenu = appcommands.get(commandName);
+
+				if (!interaction.member) {
+					return interaction.reply({ content: 'Nope! can\'t do that in DM', ephemeral: true });
+				}
+
 				contextMenu.contextmenu(interaction, appcommands, playlist);
 			}
 			catch (error) {
