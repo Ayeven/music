@@ -1,7 +1,7 @@
 # Music Bot
 Simple music bot using @discordjs/voice
 - Aim to be minimalist for those who just want some some music
--  
+-  <button type="button" onclick="https://discord.com/api/oauth2/authorize?client_id=878533448220946432&scope=applications.commands+bot&permissions=3145728">Invite Me!</button>
 
 ## Requirements
 
