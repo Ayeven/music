@@ -77,11 +77,11 @@ module.exports = {
 					},
 				);
 				await interaction.editReply({ embeds: [embed], components: [{ type:'ACTION_ROW', components: [songSelectMenu] }] });
-				await delay(3 * 60 * 1000);
+				await delay((3 * 60 * 1000), null, { ref: false });
 				await interaction.editReply({ content:'3minutes choosing track(s) come to an end!', components: [], embeds: [] });
 				const message = await interaction.fetchReply();
 				tracklist.delete(interaction.guildId);
-				await delay(7 * 60 * 1000);
+				await delay((7 * 60 * 1000), null, { ref: false });
 				if (message instanceof Message && (!message.deleted)) {
 					await message.delete()
 						.catch(()=>{void null;});
