@@ -25,10 +25,6 @@ module.exports = {
 				void client.user.setActivity(`/help ${ client.guilds.cache.size} server(s)`, { type: 'PLAYING' });
 			}
 
-			setInterval(async () => {
-				const commands = await client.application.commands.fetch();
-				void client.user.setActivity(`/${commands.random().name} for ${client.guilds.cache.size} server(s)`, { type: 'PLAYING' });
-			}, (20 * 60 * 1000));
 			console.log(`Logged in as ${client.user.tag} at ${time}`);
 		}
 		catch (error) {
