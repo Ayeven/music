@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "alwaysStrict": false,
+        "alwaysStrict": true,
         "checkJs": true,
         "noEmit": true,
         "skipLibCheck": true,
